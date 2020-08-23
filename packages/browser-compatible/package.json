@@ -1,6 +1,6 @@
 {
   "name": "@webp-tools/browser-detect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webp detect tool, inject code into html entry",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,9 @@
     "url": "https://github.com/lin0123/webp/issues"
   },
   "keywords": [
+    "@webp-tools",
+    "@webp-tools/browser-detect",
+    "webp-browser-detect",
     "webp",
     "webp-tools",
     "webp-compatible",
