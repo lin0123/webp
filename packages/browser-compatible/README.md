@@ -1,12 +1,12 @@
-#### webp-browser-detect
+#### webp-detect-plugin
 
 ##### judge webp format can you use in browser
 
-##### npm i webp-browser-detect
+##### npm i webp-detect-plugin
 
 ```
 // use
-const BrowserDetect = require('webp-browser-detect');
+const BrowserDetect = require('webp-detect-plugin');
 
 // in webpack, you can use this
 plugins: [

@@ -33,7 +33,7 @@ const webpCompressFormatObj = {
   animation: 'UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA',
 };
 
-class BrowserCompatible {
+class WebpDetectPlugin {
   constructor({
     test = /.\.html$/,
     feature = 'lossless',
@@ -75,7 +75,7 @@ class BrowserCompatible {
 
     if (compiler.hooks) {
       // webpack 4.x
-      compiler.hooks.emit.tapAsync('BrowserCompatible', onEmit);
+      compiler.hooks.emit.tapAsync('WebpDetectPlugin', onEmit);
     } else {
       // older versions
       compiler.plugin('emit', onEmit);
@@ -83,4 +83,4 @@ class BrowserCompatible {
   }
 }
 
-module.exports = BrowserCompatible;
+module.exports = WebpDetectPlugin;

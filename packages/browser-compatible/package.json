@@ -1,7 +1,7 @@
 {
-  "name": "webp-browser-detect",
+  "name": "webp-detect-plugin",
   "version": "1.0.0",
-  "description": "webp detect tool, inject code into html entry",
+  "description": "webp detect tool, with webpack plugin, inject code into html entry",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,16 +10,15 @@
     "url": "https://github.com/lin0123/webp/issues"
   },
   "keywords": [
-    "webp-browser-detect",
-    "@webp-tools",
-    "@webp-tools/browser-detect",
+    "webp-detect-plugin",
+    "webp-detect-webpack-plugin",
+    "webp-detect",
     "webp-browser-detect",
     "webp",
     "webp-tools",
     "webp-compatible",
     "webp-browser",
-    "webp-detect",
-    "browser-detect"
+    "webpack-plugin"
   ],
   "homepage": "https://github.com/lin0123/webp/tree/master/packages/browser-compatible",
   "repository": {
