@@ -1,0 +1,23 @@
+{
+  "name": "webp-detect-plugin",
+  "version": "1.0.0",
+  "description": "webp-detect-plugin, a webp detect tool, with webpack plugin, inject code into html entry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/lin0123/webp/issues"
+  },
+  "keywords": [
+    "webp-detect-plugin",
+    "webp"
+  ],
+  "homepage": "https://github.com/lin0123/webp/tree/master/packages/webp-detect-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lin0123/webp/tree/master/packages/webp-detect-plugin.git"
+  },
+  "author": "weilin",
+  "license": "MIT"
+}
