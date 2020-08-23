@@ -1,7 +1,7 @@
 {
   "name": "webp-detect-plugin",
   "version": "1.0.0",
-  "description": "webp-detect-plugin, a webp detect tool, with webpack plugin, inject code into html entry",
+  "description": "webp-detect-plugin, with webpack plugin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

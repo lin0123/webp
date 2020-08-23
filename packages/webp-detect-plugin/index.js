@@ -18,7 +18,7 @@ const insertScriptFn = (featureStr, insertStr) => `
           ${insertStr}
         }
       };
-      img.src = 'data:image/webp;base64,' + '${featureStr}';
+      img.src = '${featureStr}';
     })();
   </script>
 `;
@@ -59,9 +59,9 @@ class WebpDetectPlugin {
           const targetStr = `
             ${preFix}
             ${insertScriptFn(
-            webpCompressFormatObj[this.feature],
-            this.insertCode,
-          )}
+              'data:image/webp;base64,' + webpCompressFormatObj[this.feature],
+              this.insertCode,
+            )}
           `;
           const targetSource = htmlStr.replace(this.insertFlag, targetStr);
           assetsObj[fileKey] = {
