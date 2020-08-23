@@ -1,0 +1,19 @@
+{
+  "name": "@webp-tools/browser-detect",
+  "version": "1.0.0",
+  "description": "webp detect tool, inject code into html entry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webp",
+    "webp-tools",
+    "webp-compatible",
+    "webp-browser",
+    "webp-detect",
+    "browser-detect"
+  ],
+  "author": "weilin",
+  "license": "MIT"
+}
