@@ -1,9 +1,3 @@
-### buiding
+### webp tools
 
-npm init --scope=<org_scope>
-
-npm init --scope=@webp
-
-npm publish --access public
-
-browser-compatible-plugin
+#### in the package include all tool, click to look detail
