@@ -2,11 +2,11 @@
 
 ##### judge webp format can you use in browser
 
-##### npm i @webp-tools/browser-detect
+##### npm i webp-browser-detect
 
 ```
 // use
-const BrowserDetect = require('@webp-tools/browser-detect');
+const BrowserDetect = require('webp-browser-detect');
 
 // in webpack, you can use this
 plugins: [
@@ -41,7 +41,7 @@ const isCanUseWebp = window.__detect_webp__
 ```
 
 ```
-默认参数如上所示, 但你也可以更改
+插件支持一个对象入参，默认参数如上所示, 但你也可以更改
 test 就是正则匹配到了的需要注入兼容性代码的文件
 feature webp压缩格式, 有些特殊的压缩格式可能存在兼容, 默认的无损压缩
 insertCode 用来在浏览器中取到的标识判断，建议不要更改, 后续其他的工具可能都会根据此来判断
