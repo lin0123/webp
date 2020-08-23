@@ -1,6 +1,6 @@
 {
-  "name": "webp-detect-plugin",
-  "version": "1.0.0",
+  "name": "webp-detect-webpack-plugin",
+  "version": "1.0.1",
   "description": "webp-detect-plugin, with webpack plugin",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "url": "https://github.com/lin0123/webp/issues"
   },
   "keywords": [
+    "webp-detect-webpack-plugin",
     "webp-detect-plugin",
+    "webpack-plugin",
     "webp"
   ],
   "homepage": "https://github.com/lin0123/webp/tree/master/packages/webp-detect-plugin",
