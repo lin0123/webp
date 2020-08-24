@@ -9,6 +9,7 @@
 const BrowserDetect = require('webp-detect-webpack-plugin');
 
 // in webpack, you can use this
+// you should use the plugin in html-webpack-plugin after, otherwise it's will not take effect
 plugins: [
   new BrowserDetect(),
 ],

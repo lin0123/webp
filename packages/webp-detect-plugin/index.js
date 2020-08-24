@@ -54,6 +54,7 @@ class WebpDetectPlugin {
         if (this.test.test(fileKey)) {
           const fileItem = assetsObj[fileKey];
           const htmlStr = fileItem.source();
+          if (typeof htmlStr !== 'string') return; 
           let preFix = '';
           if (this.insertFlag === '<head>') preFix = '<head>';
           const targetStr = `
